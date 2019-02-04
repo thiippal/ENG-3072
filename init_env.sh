@@ -9,7 +9,7 @@ cd ~/work
 # export GIT_COMMITTER_EMAIL=anon@localhost
 
 # Clone notebooks to ~/work/notebooks
-git clone https://github.com/thiippal/ENG-3072/ notebooks
+git clone https://github.com/thiippal/ENG-3072/
 
 # Go to notebooks folder
 cd ~/work/notebooks
