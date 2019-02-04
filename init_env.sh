@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to default working directory
-cd ~/work
+cd /home/jovyan/work/
 
 # git reflog requires a name and email if user is not in passwd
 # even if you're only cloning
@@ -12,4 +12,4 @@ cd ~/work
 git clone https://github.com/thiippal/ENG-3072/
 
 # Go to notebooks folder
-cd ~/work
+cd /home/jovyan/work/ENG-3072/
