@@ -12,4 +12,7 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 git clone https://github.com/thiippal/ENG-3072/
 
 # Go to notebooks folder
-cd /home/jovyan/work/ENG-3072/
+cd /home/jovyan/work
+
+# Get course materials.
+./get_materials.sh
