@@ -3,7 +3,7 @@
 # Change to default working directory
 cd /home/jovyan/work/
 
-# git reflog requires a name and email if user is not in passwd
-# even if you're only cloning
-export GIT_COMMITTER_NAME=anonymous
-export GIT_COMMITTER_EMAIL=anon@localhost
+# git requires e-mail and password for cloning and committing,
+# even when authenticating via HTTPS
+git config --global user.email anon@anon.noo
+git config --global user.name anon
